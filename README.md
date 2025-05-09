@@ -1,7 +1,7 @@
-# Crop-Yield-Prediction-Using-Machine-Learning
+# Crop-Yield-Prediction and paddy disease detection-Using-Machine-Learning
 
 ## Project Summary
-This project focuses on building a predictive system for agricultural crop yield using machine learning models. By leveraging historical data on weather, pesticides, and other environmental factors, this project aims to estimate crop yields for various regions and crop types. The models developed include Linear Regression, Lasso, Ridge, Decision Tree, and K-Nearest Neighbors. The dataset used comes from historical agricultural data, including crop yield, rainfall, and temperature, and covers various countries and crops.
+This project focuses on building a predictive system for agricultural crop yield and disease detection using machine learning models. By leveraging historical data on weather, pesticides, temperature, and disease symptoms, this project aims to estimate crop yields and detect potential diseases for various regions and crop types. The models developed for crop yield prediction include Linear Regression, Lasso, Ridge, Decision Tree, and K-Nearest Neighbors. Additionally, the project also includes a disease detection system for paddy crops using image classification techniques.
 
 ## Objectives
 1. **Data Cleaning & Exploration:** Remove missing values, duplicates, and irrelevant columns to prepare the dataset for modeling.
@@ -43,10 +43,17 @@ This project focuses on building a predictive system for agricultural crop yield
 git add ../README.md
 
 ## Conclusion
-The Decision Tree Regressor and K-Nearest Neighbors showed the most promise in accurately predicting crop yield based on historical data. The project demonstrates the utility of machine learning in agricultural yield prediction, which can assist farmers, policymakers, and agronomists in making informed decisions about crop production.
+The Decision Tree Regressor and K-Nearest Neighbors showed the most promise in accurately predicting crop yield based on historical data. For disease detection, the CNN model performed well in classifying images of paddy leaves. The project demonstrates the utility of machine learning in both crop yield prediction and disease detection, helping farmers and agronomists make informed decisions about crop management.
 
 ## Future Work
-1. **Model Improvement:** Experiment with more advanced models such as Random Forest, Gradient Boosting, or Neural Networks to improve prediction accuracy.
-2. **Feature Engineering:** Incorporate more features such as soil quality, water usage, and fertilizer data to enhance the model’s predictive power.
-3. **Deployment:** Develop a web-based user interface (possibly using Streamlit) for end-users to easily input data and obtain yield predictions in real time.
-4. **Time Series Analysis:** Introduce time series forecasting techniques to account for trends and seasonality in yield prediction.
+1.Model Improvement: Experiment with more advanced models such as Random Forest, Gradient Boosting, or Neural Networks to improve prediction accuracy for both crop yield and disease detection.
+
+2.Feature Engineering: Incorporate more features such as soil quality, water usage, and fertilizer data to enhance the crop yield prediction model.
+
+3.Deployment: Develop a web-based user interface (possibly using Streamlit) for end-users to easily input data and obtain yield predictions and disease detections in real time.
+
+4.Time Series Analysis: Introduce time series forecasting techniques for crop yield prediction to account for trends and seasonality.
+
+5.Expand Disease Detection: Extend the disease detection model to identify diseases in other crops beyond paddy.
+
+
